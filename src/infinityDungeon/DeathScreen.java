@@ -21,6 +21,8 @@ public class DeathScreen extends JFrame implements ActionListener
 		Death.setHorizontalAlignment(JLabel.CENTER);
 	    Death.setVerticalAlignment(JLabel.CENTER);
 		add(Death);
+		JLabel Death = new JLabel ("Death");
+		Font bigFont = new Font("Arial", Font.BOLD, 30);
 
 		
 		
@@ -37,7 +39,7 @@ public class DeathScreen extends JFrame implements ActionListener
 			DS.setLocationRelativeTo(null);
 			DS.setVisible(true);
 
-}
+		}
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			// TODO Auto-generated method stub
